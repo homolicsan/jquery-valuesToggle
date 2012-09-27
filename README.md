@@ -1,4 +1,4 @@
-value_remember
+valuesToggle
 ==============
 
 jquery plugin
