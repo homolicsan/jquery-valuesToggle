@@ -18,9 +18,9 @@
     $.fn.valuesToggle = function(custom_options)
     {
 
-        $this = this;
+        var $this = this;
 
-        opt_default = {
+        var opt_default = {
             selector : '.mem'
         };
 
@@ -29,11 +29,11 @@
         var init = function ()
         {
 
-            orign_values = new Array();
-            $elements = $this.find(opt.selector); 
+            var orign_values = new Array();
+            var $elements = $this.find(opt.selector); 
 
             var el_each = function(i,el){
-                $this = $(this);
+                var $this = $(this);
 
                 var $el = $(el);
                 orign_values[i] = $el.val();
